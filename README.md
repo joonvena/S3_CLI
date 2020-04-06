@@ -27,11 +27,18 @@ Or you can download the binaries from [Releases](https://github.com/joonvena/S3_
 
 `s3 delete -profile <profile> -bucket <bucket name> -region <region>`
 
+Region is now optional argument:
+`s3 delete -profile <profile> -bucket <bucket name>`
+
 ![Image description](delete.gif)
 
 ## Changes
 
+###### 06.04.2020
+
+- Now you can delete cross-region buckets
+
 ###### 05.04.2020
 
 - Added tablewriter library to print out the bucket list nicely.
-- Region is now displayed when buckets are listed
+- Region is now displayed when buckets are listed.
